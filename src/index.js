@@ -7,7 +7,7 @@ const number = 0;
 
 ReactDOM.render(
   <div>
-    <h1 class="heading">
+    <h1 className="heading">
       Hello, {fname} {lname}
     </h1>
     <p>Your favourite number is {number}</p>
