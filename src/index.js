@@ -3,14 +3,17 @@ import ReactDOM from "react-dom";
 
 const fname = "Animish";
 const lname = "Pande";
-const number = 0;
+
+const img = "https://picsum.photos/200/300";
 
 ReactDOM.render(
   <div>
     <h1 className="heading">
       Hello, {fname} {lname}
     </h1>
-    <p>Your favourite number is {number}</p>
+    <div>
+      <img src={img + "?blur=2"} alt="random"/>
+    </div>
   </div>,
   document.getElementById("root")
 );
